@@ -1,4 +1,4 @@
-package codility.lesson01;
+package codility.lesson01.iterations;
 
 import codility.RunnerInterface;
 

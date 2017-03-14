@@ -1,4 +1,4 @@
-package codility.lesson03;
+package codility.lesson03.timecomplexity;
 
 import codility.RunnerInterface;
 

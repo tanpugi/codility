@@ -1,4 +1,4 @@
-package codility.lesson02;
+package codility.lesson02.arrays;
 
 import codility.RunnerInterface;
 
