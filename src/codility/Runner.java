@@ -6,6 +6,7 @@ import codility.lesson02.arrays.OddOccurencesInArray;
 import codility.lesson03.timecomplexity.FrogJmp;
 import codility.lesson03.timecomplexity.PermMissingElem;
 import codility.lesson03.timecomplexity.TapeEquilibrium;
+import codility.lesson04.countingelements.FrogRiverOne;
 import codility.lesson04.countingelements.PermCheck;
 
 public class Runner {
@@ -18,6 +19,7 @@ public class Runner {
         r(PermMissingElem.class);
         r(TapeEquilibrium.class);
         r(PermCheck.class);
+        r(FrogRiverOne.class);
     }
     
     public static void r(Class<?> rclass) throws Exception {
