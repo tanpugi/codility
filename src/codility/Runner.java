@@ -6,15 +6,23 @@ import codility.lesson02.arrays.OddOccurencesInArray;
 import codility.lesson03.timecomplexity.FrogJmp;
 import codility.lesson03.timecomplexity.PermMissingElem;
 import codility.lesson03.timecomplexity.TapeEquilibrium;
+import codility.lesson04.countingelements.PermCheck;
 
 public class Runner {
 
-    public static void main(String[] args) {
-        new BinaryGap().run();
-        new CyclicRotation().run();
-        new OddOccurencesInArray().run();
-        new FrogJmp().run();
-        new PermMissingElem().run();
-        new TapeEquilibrium().run();
+    public static void main(String[] args) throws Exception {
+        r(BinaryGap.class);
+        r(CyclicRotation.class);
+        r(OddOccurencesInArray.class);
+        r(FrogJmp.class);
+        r(PermMissingElem.class);
+        r(TapeEquilibrium.class);
+        r(PermCheck.class);
+    }
+    
+    public static void r(Class<?> rclass) throws Exception {
+        Object obj = rclass.getConstructor().newInstance();
+        RunnerInterface ri = (RunnerInterface) obj;
+        ri.run();
     }
 }
